@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E族之家</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		padding: 0px;
+		margin:0px;
+	}
+	.parent{
+		width:100%;
+		height:1200px;
+		background-color:rgb(244,244,244);
+		margin:0px auto;
+	}
+	.nav-warp{
+		height:31px;
+	}
+	.nav{
+		width:1200px;
+		height:31px;
+		margin:0 auto;	
+	}
+	.left{
+		float:left;
+	}
+	.right{
+		float:right;
+	}
+	.right a{
+		text-decoration: none;
+		color:black;
+	}
+	
+	.ri{
+		font-style:微软雅黑;
+		font-size:12px;
+		color:black;
+		line-height:31px; 
+		height:31px;
+	}
+	.wh{
+		float:left;
+	}
+	.wh{
+		margin-right:14px;
+		height:31px;
+		font-style:微软雅黑;
+		font-size:13.11px;
+		color:black;
+		line-height:31px; 
+		
+	}
+	
+	.wh img{
+		margin-right:-14px;
+		line-height: 31px;
+		margin-top:8px;
+	}
+	.chao-warp{
+		background-color: white;
+		border-bottom:2px solid red;
+	}
+	.chao{
+		height:160px;
+		width:1200px;
+		margin:0 auto;
+	}
+	/*.chao{
+		float:left;
+	}*/
+	.pic{
+		margin-top:20px;
+		height:40px;
+		width:370px;
+	}
+	.pic{
+		float:left;
+	}
+	.dic{
+		width:510px;
+		display:inline-block;
+	}
+	.re{
+		float:left;
+	}
+	.re input{
+		width:409px;
+		height:40px;
+		text-indent:19px;
+		border:2px solid red;
+		color:rgb(216,216,216);
+		font-style:微软雅黑;
+		font-size:12px;
+		margin-top:40px;
+		
+	}
+	.red{
+		float:left;
+	}
+	.red input{
+		width:92px;
+		height:42px;
+		background-color: red;
+		color:white;
+		margin-top:40px;
+	}
+	.car{
+		float:right;
+	}
+	.car{
+		width:149px;
+		height:35px;
+		background-color: rgb(245,245,245);
+		border:1px solid rgb(255,255,255);
+		margin-top:40px;
+
+	}
+	.car img{
+		float:left;
+	}
+	.car img{
+		margin-top: 8px;
+		margin-left:30px;
+	}
+	.pa{
+		float:left;
+	}
+	.pa{
+		font-style:微软雅黑;
+		font-size:14px;
+		color: black;
+		margin-left:2px;
+		line-height:40px;
+	}
+
+	.zero{
+		color:red;
+	}
+	.link{
+		float:left;
+	}
+	.link{
+		margin-top:30px;
+		margin-left:30px;
+	}
+	ul{
+		list-style: none;
+		margin:0px 10px;
+	}
+	.ch a{
+		text-decoration:none;
+		color:black;
+
+	}
+	.link li{
+		width:90px;
+		height:35px;
+		display:inline-block;
+		font-style:微软雅黑;
+		font-size:16px;
+		text-align:center;
+		line-height:35px;
+		/*text-indent: 10px;*/
+		
+	}
+	.link li:hover{
+		background-color: rgb(253,3,4);
+		border-radius: 8px;
+		}
+	.link li:hover a{
+		color:white;
+	}
+	.small-warp{
+		height:64px;
+	}
+	.small{
+		width:1200px;
+		height:64px;
+		margin:0 auto;
+
+	}
+	.small p{
+		font-style:微软雅黑;
+		font-size:14px;
+		line-height: 64px;
+	}
+	.zhao-warp{
+		height:570px;
+	}
+	.zhao{
+		width:1200px;
+		height:570px;
+		margin:0 auto;
+	}
+	.sort{
+		width:218px;
+		height:45px;
+		background-color: white;
+	}
+	.pass{
+		float:left;
+	}
+	.pass{
+			
+		line-height: 45px;
+		font-style:微软雅黑;
+		font-size:16px;
+	}
+	.sort{
+		float:left;
+	}
+	.sort img{
+		float:left;
+	}
+
+	.sort img{
+		margin:16px 33px;
+	}
+	.try{
+		float:left;
+	}
+	.line{
+		float:left;
+	}
+		
+	.line{
+		width:218px;
+		height:510px;
+		margin-top:11px;
+		background-color: white;
+
+	}
+	.line a{
+		text-decoration: none;
+		color:black;
+	}
+	.line ul{
+		list-style: none;
+	}
+	.line li{
+		width:120px;
+
+		font-style:微软雅黑;
+		font-size:16px;
+		margin-top:33px;
+		padding-top:15px;
+		text-align: left;
+		text-indent:55px;
+		background-repeat:no-repeat;
+		background-image: url(images/符号_03.gif);
+		background-position: 45px 20px;
+	}
+	.line li:hover{
+		background-repeat:no-repeat;
+		background-image: url(images/red_03.gif);
+		background-position: 45px 20px;
+			
+	}
+
+	.line a:hover{
+		color: red;
+	}
+	.pict{
+		width:1000px;
+		height:570px;
+		background-color: white;
+		margin-left:230px;
+	}
+	.top{
+		float:left;
+	}
+	.bottom{
+		float:left;
+	}
+	.p1{
+		float:left;
+	}
+	.p1{
+		width:222px;
+		height:253px;
+		margin:15px 12px;
+		border: 1px solid rgb(200,200,200);
+
+	}
+	.p1 p{
+		text-align: center;
+		font-style:微软雅黑;
+		font-size:16px;
+		color: rgb(200,200,200);
+		line-height: 2em;
+
+	}
+	.p1 img{
+		margin:3px 25px;
+	}
+	.letter{
+		text-align: center;
+		font-style:微软雅黑;
+		font-size:15px;
+		color: black;
+	}
+	.p2-warp{
+		height:151px;
+		background-color: rgb(46,46,46);
+	}
+	.p2{
+		height:151px;
+		width:1200px;
+		margin:0 auto;
+	}
+	.list1 ul{
+		float:left;
+	}
+	.list a{
+		color:white;
+		text-decoration: none;
+
+	}
+	.list1 ul{
+		list-style: none;
+		width:120px;
+		margin-right:130px;
+
+	}
+	.list1{
+		float:left;
+	}
+	.list2{
+		float:right;
+	}
+	.list2 li{
+		width:100px;
+		text-align:left;
+		padding-bottom:12px;
+		font-style:微软雅黑;
+		font-size:14px;
+		color:white;
+		margin-right: 10px;
+	}
+
+	.list1 li{
+		width:100px;
+		text-align:left;
+		padding-bottom:12px;
+		font-style:微软雅黑;
+		font-size:14px;
+		color:white;
+		margin-right: 10px;
+	}
+	.list1 li:first-child{
+		font-style:微软雅黑;
+		font-size:16px;
+		padding-top:15px;
+		padding-bottom: 15px;
+	}
+	.list2 li:first-child{
+		font-style:微软雅黑;
+		font-size:16px;
+		padding-top:15px;
+		padding-bottom: 15px;
+	}
+	.te{
+		margin-right:0px;
+
+	}
+	.con-warp{
+		height:98px;
+		background-color: rgba(46,46,46,0.9);
+		border-top:1px solid rgb(111,111,111) ;
+	}
+	.con{
+		width:1200px;
+		margin:0 auto;
+	}
+	.last{
+		width:1200px;
+		
+		margin-top:28px;
+	}
+	.one{
+		margin-bottom:12px;
+		font-style:微软雅黑;
+		font-size:14px;
+		color:rgb(111,111,111);
+		text-align: center;
+		margin-top:20px;
+		}
+	.imge img{
+		float:left;
+
+	}
+	.imge img{
+		margin-left: 350px;
+		margin-top:3px;
+		width:15px;
+	}
+	.th p{
+		float:left;
+	}
+
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="nav-warp">
+			<div class="nav">
+				<div class="left">
+					<div class="wh">
+						<p>我的收藏</p>
+					</div class="wh">
+					<div class="wh">
+						<p>E族之家手机版</p>
+					</div>
+					<div class="wh">
+						<img src="images/qq_03.gif" alt="tupian"/>
+					</div>
+					<div class="wh">328203328</div>
+				</div>
+				<div class="right">
+					<div class="ri">
+						<p>扫描加入  欢迎加入E族之家，<a href="#">请登录</a>|<a href="#">注册</a></p>
+					</div>
+				</div>	
+			</div>	
+		</div>
+		<form>
+		<div class="chao-warp">
+			<div class="chao">
+			
+				<div class="pic">
+					<img src="images/作业设计图_03.gif" alt="tu">
+				</div>
+				<div class="dic">
+					<div class="re">
+						<input type="text" name="inp1" value="请输入关键字!">
+					</div>
+					<div class="red">
+						<input type="button" name="inp2" value="搜索">
+					</div>
+				</div>
+				
+				<div class="car">
+					<div class="img">
+						<img src="images/车.gif" alt="tupian">
+					</div>
+					
+					<div class="pa">
+						购物车(<span class="zero">0</span>)件
+					</div>
+
+				</div>
+				<div class="link">
+					<ul class="ch">
+						<li><a href="#">首页</a></li>
+						<li><a href="#">E族生活</a></li>
+						<li><a href="#">E族服务</a></li>
+						<li><a href="#">E族爱心</a></li>
+					</ul>
+				</div>
+			
+			</div>
+			</form>
+		</div>
+		<div class="small-warp">
+			<div class="small">
+				<p>当前位置: E族爱心>食品</p>
+			</div>
+		</div>
+		<div class="zhao-warp">
+			<div class="zhao">
+				<div class="sort">
+					<div class="try">
+						<img src="images/设计图_03.gif" alt="tupian">
+						<div class="pass">全部分类</div>
+					</div>
+					<div class="line">
+					<ul class="mid">
+						<li><a href="#">食品</a></li>
+						<li><a href="#">生活用品</a></li>
+					</ul>
+				</div>
+
+				</div>
+				<div class="pict">
+					<div class="top">
+						<div class="p1">
+							<img src="images/辣椒1_03.gif">
+							<p>精品辣椒100g</p>
+							<p><span class="letter">￥90.00</span></p>
+
+						</div>
+						<div class="p1">
+							<img src="images/果_03.gif">
+							<p>特级百香果3斤</p>
+							<p><span class="letter">￥90.00</span></p>
+						</div>
+						<div class="p1">
+							<img src="images/酒1_03.gif">
+							<p>天威啤酒500ml</p>
+							<p><span class="letter">￥90.00</span></p>
+						</div>
+						<div class="p1">
+							<img src="images/坚果1_03.gif">
+							<p>天威啤酒500ml</p>
+							<p><span class="letter">￥90.00</span></p>
+						</div>
+					</div>
+						<div class="bottom">
+							<div class="p1">
+								<img src="images/辣椒1_03.gif">
+								<p>精品辣椒100g</p>
+								<p><span class="letter">￥90.00</span></p>
+							</div>
+							<div class="p1">
+								<img src="images/果_03.gif">
+								<p>特级百香果3斤</p>
+								<p><span class="letter">￥90.00</span></p>
+							</div>
+							<div class="p1">
+								<img src="images/酒1_03.gif">
+								<p>天威啤酒500ml</p>
+								<p><span class="letter">￥90.00</span></p>
+							</div>
+							<div class="p1">
+								<img src="images/坚果1_03.gif">
+								<p>天威啤酒500ml</p>
+								<p><span class="letter">￥90.00</span></p>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="p2-warp">
+			<div class="p2">
+				<div class="list">
+					<div class="list1" >
+
+					<ul>
+						<li><a href="#">新手上路</a></li>
+						<li><a href="#">售后流程</a></li>
+						<li><a href="#">购买流程</a></li>
+						<li><a href="#">订购方式</a></li>
+					</ul>
+					</div>
+					<div class="list1" >
+						<ul>
+						<li><a href="#">配送方式</a></li>
+						<li><a href="#">货到付款区域</a></li>
+						<li><a href="#">配送支付查询</a></li>
+						<li><a href="#">支付方式说明</a></li>
+					</ul>
+					</div>
+					<div class="list1" >
+						<ul>
+						<li><a href="#">购物指南</a></li>
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">订购流程</a></li>
+						<li><a href="#">注册新会员</a></li>
+					</ul>
+					</div>
+					<div class="list1" >
+						<ul>
+						<li><a href="#">售后服务</a></li>
+						<li><a href="#">退换货原则</a></li>
+						<li><a href="#">售后服务保证</a></li>
+						<li><a href="#">换货流程</a></li>
+					</ul>
+					</div>
+					<div class="list2" >
+						<ul>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">网站故障报告</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">投诉与建议</a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="con-warp">
+			<div class="con">
+				
+					<div class="one">
+						<p>E族生活 | 居家维修保养 | 住宿优惠信息 | 出行接送 | E族活动 |E族爱心 | 积分商城</p>
+					</div>
+					<div class="one">
+						<div class="imge">
+							<img src="images/小图_03.gif" alt="tupian">
+						</div>
+						<div class="th">
+							<p>2017-2018  E族之家  版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
+						</div>
+					</div>
+				
+			</div>
+		</div>
+
+</body>
+</html>
